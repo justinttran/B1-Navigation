@@ -13,13 +13,13 @@ public class UIController : MonoBehaviour {
 	
 	
 	void Update () {
-		agentsSelected.text = "Agents selected: ";
-		foreach (GameObject agent in GameObject.FindGameObjectsWithTag("agent")){
-			script = agent.GetComponent<AgentController>();
-			if (script.selected == true){
-				agentsSelected.text = agentsSelected.text + agent.name + ", ";
-			}
-		}
-		agentsSelected.text = agentsSelected.text.Substring(0, agentsSelected.text.Length - 2);
-	}
+	// 	agentsSelected.text = "Agents selected: ";
+	// 	foreach (GameObject agent in GameObject.FindGameObjectsWithTag("agent")){
+	// 		script = agent.GetComponent<AgentController>();
+	// 		if (script.selected == true){
+	// 			agentsSelected.text = agentsSelected.text + agent.name + ", ";
+	// 		}
+	// 	}
+	// 	agentsSelected.text = agentsSelected.text.Substring(0, agentsSelected.text.Length - 2);
+	 }
 }
